@@ -1,0 +1,229 @@
+*{ /*стандартно зачистване*/
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+body{ /*на всичко се задава този цвят като за фон*/
+	background-color: rgb(240,240,240);
+}
+header{/*най горната част, задаване на снимка, колко да е дълго, подравнени в средата и цвят на буквите*/
+	background-image: url('head-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+h2,h3,h4{ /*останалите заглавия да не са удебелени*/
+	font-weight: normal;
+}
+#logo{/*снимката в средата, размер и позициониране*/
+	height: 100px;
+	position: relative;
+	top: 40px;
+}
+#menu ul li{/*менюто в хедъра, да се показват едно до друго и задаване на разстояние между тях*/
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 18px;
+}
+#section1{ /*сайта е разделен на секции, това е първата*/
+	margin: 30px 250px;
+	background-color: rgb(240,240,240);
+}
+h2{
+	padding: 20px 0;
+	font-size: 35px;
+}
+#section1 img{/*за снимките в първа секция*/
+	width: 350px;
+	height: 250px;
+}
+#section1 div{
+	display: inline-block;
+	margin: 0 40px;
+	vertical-align: text-top;
+}
+#second-menu ul li{/*менюто в първа секция*/
+	display: inline-block;
+	padding-right:  20px;
+	margin: 20px 0;
+	font-weight: bold;
+	float: right;
+}
+#second-menu ul li:hover{ /*какво да се случи когато мишката мине през менюто*/
+	border-bottom: 2px solid orange;	
+}
+div#articles{
+	padding-top: 20px;
+}
+#section1 article{
+	padding: 20px 0;
+}
+#middle{
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+}
+.date{
+	color: orange;
+}
+.folder{
+	color: gray;
+	padding: 0 5px;
+}
+.imgdiv{
+	width: 20%;	
+}
+.imgdiv img{
+	max-width: 100%;
+	max-height: 97px;
+}
+
+/*секция2*/
+#section2{
+	background-image: url('section2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 0 -15px;
+	padding: 80px 111px 50px;
+	color: white;
+}
+#tablKlasirane{/*украсяване на таблицата*/
+	position: relative;
+    left: 600px;
+    box-sizing: border-box;
+    width: 1200px;
+    padding-left: 142.5px;
+    padding-right: 142.5px;
+}
+#tablKlasirane th{
+	background-color:  #f8c711;
+	color: black;
+	padding: 5px 10px;
+	border: none;
+}
+#tablKlasirane tr:nth-child(even){
+	background-color: #007991;
+	height: 40px;
+}
+#tablKlasirane tr:nth-child(odd){
+ 	background-color: #072242;
+ 	height: 40px;
+}
+
+
+
+#section3{
+	text-align: center;
+	background-color: rgb(240,240,240);
+	padding: 30px;
+	padding-bottom: 50px;
+}
+#section3 img{
+	margin: 20px;
+}
+.more{
+	border: 3px solid orange;
+	padding: 5px 25px;
+	color: orange;
+	margin-bottom: 30px;
+}
+.more:hover{
+	color: white;
+	background-color: orange;
+}
+
+
+#section4{
+	background-color: orange;
+	padding: 50px 145px;
+	text-align: center;
+}
+#ardatv{
+	background-color: #072242;
+	color: #fff;
+	padding: 10px;
+}
+#ardatv:hover{
+	color: orange;
+}
+
+
+
+#section5{
+	margin: 0 15%;
+}
+#section5 div{
+	display: inline-block;
+	margin: 30px;
+}
+#section5 img{
+	width: 550px;
+	height: 350px;
+	margin: 20px 0;
+}
+
+
+#section6{
+	padding: 0 10%;
+	background-color: rgb(220,220,220)
+}
+#section6 div{
+	display: inline-block;
+	background-color: #fff;
+	margin: 15px;
+	text-align: center;
+	padding: 5px 10px;
+}
+#section6 img{
+	width: 250px;
+	height: 350px;
+}
+#section7{
+	text-align: center;
+}
+#section7 h2{
+	text-align: left;
+	position: relative;
+	left: 200px;
+}
+#section7 img{
+	width: 300px;
+	height: 100px;
+	margin: 20px;
+}
+
+
+/*нагоре няма коментари, защото нещата са идентични..
+футъра*/
+footer{
+	background-color: #06083B;
+	color: #fff;
+}
+footer img{
+	height: 100px;
+}
+footer div{
+	display: inline-block;
+	margin: 30px 40px;
+}
+footer ul li{
+	list-style-type: square;
+}
+footer ul li:hover{
+	color: orange;
+}
+#upfoot{
+	padding: 0 20%;
+}
+#search{
+	position: relative;
+	top: -75px;
+}
